@@ -30,7 +30,7 @@ char *get_path(char *com_name)
 	sprintf(conpath, "%s%s", com_path, com_name);
 	if (access(conpath, X_OK) != 0)
 	{
-		perror("Command not found");
+		perror("not found");
 		free(conpath);
 		return (NULL);
 	}
