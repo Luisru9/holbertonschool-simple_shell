@@ -1,0 +1,54 @@
+.TH SIMPLE_SHELL 1 "December 2023" "Simple Shell 1.0" "User Commands"
+
+.SH NAME
+simple_shell \- A basic shell program
+
+.SH SYNOPSIS
+.B simple_shell
+
+.SH DESCRIPTION
+The \fBsimple_shell\fP program is a basic shell that allows users to enter commands and executes them. It supports
+interactive mode and provides a prompt for user input. The shell also includes a built-in "exit" command to
+terminate the program.
+
+
+.SH COMMANDS
+The \fBsimple_shell\fP supports the following built-in command:
+
+.TP
+\fBexit\fP
+Exits the shell.
+
+.SH USAGE
+Run the \fBsimple_shell\fP program without any arguments.
+
+.B
+$ ./hsh
+
+.SH INTERACTIVE MODE
+In interactive mode, the shell displays a prompt and waits for user input. Commands entered by the user are
+executed until the user enters the "exit" command.
+
+.SH EXAMPLES
+To run the \fBsimple_shell\fP program:
+
+.B
+$ simple_shell
+
+This will start the shell in interactive mode. You can then enter commands, and the shell will execute them.
+
+.SH EXIT STATUS
+The \fBsimple_shell\fP program returns 0 upon successful execution.
+
+.SH AUTHOR
+Written by Luis Gonzalez Pagan and Manuel Morales.
+
+.SH BUGS
+Report any bugs or issues to 7357@holbertonstudents.com or 5366@holbertonstudents.com.
+
+.SH COPYRIGHT
+This is free and unencumbered software released into the public domain.
+
+.SH VERSION
+Simple Shell 1.0
+

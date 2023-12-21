@@ -25,14 +25,13 @@ int main(int ac, char **av, char **env)
 		/* Trim leading and trailing whitespace */
 		trimmed = trim(input);
 		if (strcmp(trimmed, "exit") == 0)
-		break;
+			break;
 		if (trimmed[0] == '\0')
 			continue;
 		Tok(trimmed, env); /* Execute the command entered by the user */
 	}
 	free(input); /* Free allocated memory */
 	exit(EXIT_SUCCESS);	 /* Exit the shell */
-}
 
 /**
  * trim - Remove leading and trailing whitespace from a string
