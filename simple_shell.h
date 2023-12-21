@@ -18,6 +18,5 @@ void free_token(char **tokI, int counter);
 void free_paths_array(char **paths, int num_paths);
 char *get_path(char *com_name);
 void child_creator(char **tokens, char **env);
-void  _exit(char **cmd, char *input, char **argv, int c);
 
 #endif /* SIMPLE_SHELL_H */
