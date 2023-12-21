@@ -31,7 +31,8 @@ int main(int ac, char **av, char **env)
 		Tok(trimmed, env); /* Execute the command entered by the user */
 	}
 	free(input); /* Free allocated memory */
-	return (0);	 /* Exit the shell */
+	exit(EXIT_SUCCESS); /* Exit the shell */
+}
 
 /**
  * trim - Remove leading and trailing whitespace from a string
