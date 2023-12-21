@@ -25,7 +25,7 @@ int main(int ac, char **av, char **env)
 		/* Trim leading and trailing whitespace */
 		trimmed = trim(input);
 		if (strcmp(trimmed, "exit") == 0)
-			break;
+			exit(2);
 		if (trimmed[0] == '\0')
 			continue;
 		Tok(trimmed, env); /* Execute the command entered by the user */
