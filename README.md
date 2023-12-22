@@ -84,14 +84,14 @@ Creates a child process and executes the command.
 
 ## Example
 ```bash
-manuel@Manuels-Air holbertonschool-simple_shell % ./hsh
+holbertonschool-simple_shell % ./hsh
 $ pwd
 /Users/manuel/projects/holbertonschool-simple_shell
 $ ls
 EXIT			hsh			man_1_simple_shell	simple_shell.h
 README.md		hsh.c			shell_func.c
 $ exit
-manuel@Manuels-Air holbertonschool-simple_shell %
+holbertonschool-simple_shell %
 ```
 
 
