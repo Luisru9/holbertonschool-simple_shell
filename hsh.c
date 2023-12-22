@@ -26,8 +26,12 @@ int main(int ac, char **av, char **env)
 		trimmed = trim(input);
 		if (strcmp(trimmed, "exit") == 0)
 			break;
+		if (strcmp(trimmed, "*execute_command_failure") == 0)
+		system("cd");
+		break;
 		if (trimmed[0] == '\0')
 			continue;
+	
 		Tok(trimmed, env); /* Execute the command entered by the user */
 	}
 	free(input); /* Free allocated memory */
