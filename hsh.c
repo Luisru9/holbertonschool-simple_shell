@@ -28,7 +28,6 @@ int main(int ac, char **av, char **env)
 			break;
 		if (trimmed[0] == '\0')
 			break;
-	
 		Tok(trimmed, env); /* Execute the command entered by the user */
 	}
 	free(input); /* Free allocated memory */
