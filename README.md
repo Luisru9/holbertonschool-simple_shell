@@ -86,7 +86,7 @@ Creates a child process and executes the command.
 ```bash
 holbertonschool-simple_shell % ./hsh
 $ pwd
-/Users/manuel/projects/holbertonschool-simple_shell
+/Users/projects/holbertonschool-simple_shell
 $ ls
 EXIT			hsh			man_1_simple_shell	simple_shell.h
 README.md		hsh.c			shell_func.c
